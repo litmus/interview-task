@@ -1,0 +1,39 @@
+.status {
+  background-color: #FFFFFF;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.status--current {
+  font-size: 1.2rem;
+}
+
+.status__timestamp {
+  width: 300px;
+  color: #666666;
+  font-size: 0.8em;
+}
+
+.status__message {
+  font-size: 1em;
+}
+
+.status__state {
+  float: right;
+  text-align: center;
+  width: 125px;
+  text-transform: uppercase;
+  background-color: #666666;
+  color: #FFFFFF;
+  padding: 0.2rem 0;
+}
+
+.status__state--up {
+  background-color:  green;
+}
+
+.status__state--down {
+  background-color:  red;
+}
