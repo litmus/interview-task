@@ -1,24 +1,16 @@
-# README
+# Litmus Interview Task
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+This is an out of the box Rails 7 codebase, with the exception of switching from minitest to RSpec for any tests.
 
-* Ruby version
+* Ruby 3.1.2
+* Rails 7.0.3
+* RSpec
 
-* System dependencies
+To setup and run a server locally:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+bundle install
+bin/rails s
+````
