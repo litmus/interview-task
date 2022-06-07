@@ -14,3 +14,13 @@ To setup and run a server locally:
 bundle install
 bin/rails s
 ````
+
+Alternatively, you can use Docker:
+
+```bash
+# Run the local server
+docker compose up
+
+# Run the test suite
+docker compose run app rspec
+```

@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    restart: on-failure
+    command: ["bundle", "exec", "rails", "server", "--port", "3000", "--binding", "0.0.0.0", "--pid", "/tmp/puma.pid"]
+    volumes:
+      - .:/app
